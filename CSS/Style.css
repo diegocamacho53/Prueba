@@ -1,6 +1,28 @@
 body{
     background-color: white;
 }
+
+nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-top: 20px;
+    padding-right: 5%;
+    font-weight: bold;
+}
+
+ul li{
+    display: inline-block;
+    padding: 0px 20px;
+    
+
+}
+a{
+    text-decoration: none;
+}
+
+
 .img-port{
      width: 250px;
      
