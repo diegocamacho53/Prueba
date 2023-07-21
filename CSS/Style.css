@@ -1,5 +1,12 @@
+*{
+    font-family: Bahnschrift Condensed;
+    width: auto;
+}
+
 body{
     background-color: #f6f8fa;
+    
+    
 }
 
 nav{
@@ -9,53 +16,88 @@ nav{
     padding-left: 5%;
     padding-top: 20px;
     padding-right: 5%;
-    font-weight: bold;
-    
+    font-weight: bold;    
 }
 
 
 ul li{
     display: inline-block;
-    padding: 0px 20px;
-    
-    
-
+    padding: 0px 20px;       
 }
 a{
     text-decoration: none;
-    color: white;
+    color:blue;
 }
-header{
+.font{
+     float: right;
+     width: 100%;
+     opacity: 1;
     
-    background-color: black;
    
 }
-.box{
+.container{
+
  width: 100%;
  min-height: 10vh;
  padding: 3%;
- background-image: linear-gradient(rgba(0,8,51,0,9));
+ background-image: linear-gradient(rgba(0,8,51,0,9), rgba(0,8,51,0,9), url(./background.jng));
+ background-position: center;
+ background-size: cover;
+ align-items: center;
+ justify-content: center;
+ display: flex;
   
 }
 
-.wave{
-    position: absolute;
-    
-    width:100%;
+.search-bar{
+    margin-top:85px;
+    width: 100%;
+    max-width: 700px;
+    background: rgba(255, 255, 255, 0.2);
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    backdrop-filter: blur(4px) saturate(100%);
+}
+.search-bar input{
+    background: transparent;
+    flex:1;
+    outline: none;
+    padding:24px 20px;
+    font-size: 20px;
+    color:#939297;
+}
+::placeholder{
+    color:#939297;
+}
+.search-bar button img{
+    width: 25px;
+}
+.search-bar button{
+    border: 0;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-image: radial-gradient(circle at 50% -20.71%, #e6f58f 0, #e9eb7f 10%, #ecdf6e 20%, #efd25d 30%, #f1c44d 40%, #f2b53c 50%, #f3a52d 60%, #f59522 70%, #f8851d 80%, #fa741e 90%, #fc6324 100%);
+    cursor:pointer;
 }
 
+
+
 .container-md{
-    padding: 50px 0 90px 0;
+    padding: 50px 0 0px 0;
+   
 }
 
 .text-1{
-    
+    line-height:2;
     font-size: 20px;
     color: #a09fa2;
 }
 
 .text-2{
     font-size: 38px;
+    line-height:0.8;
     
 }
 .text-3{
@@ -66,27 +108,25 @@ header{
 .text-4{
     color: #939297;
     font-style: unset;
-    padding: 0 50px;
+    padding: 200px 0 0 300px;
 }
 .img-port{
-     width: 250px;
-     
+     width: 250px;     
 }
 .portafolio{
+    
     display: flex;
     position: absolute;
     width: 50%;
-
+    padding-left:200px;
 }
 .card-img{
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
-    margin-left: 30px;
+    margin-left: 100px;
     margin-bottom: 90px;
-    text-align:left;
-   
-    
-    
+    text-align:left;      
+        
 }
 .txt-info{
     margin-top: 20px;   
