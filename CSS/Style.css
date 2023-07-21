@@ -1,5 +1,5 @@
 body{
-    background-color: white;
+    background-color: #f6f8fa;
 }
 
 nav{
@@ -22,7 +22,30 @@ a{
     text-decoration: none;
 }
 
+.container-md{
+    padding: 50px 0 90px 0;
+}
 
+.text-1{
+    
+    font-size: 20px;
+    color: #a09fa2;
+}
+
+.text-2{
+    font-size: 38px;
+    
+}
+.text-3{
+    
+    padding: 50px;
+    
+}
+.text-4{
+    color: #939297;
+    font-style: unset;
+    padding: 0 50px;
+}
 .img-port{
      width: 250px;
      
@@ -37,10 +60,13 @@ a{
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
     margin-left: 30px;
-    text-align:left;    
+    margin-bottom: 90px;
+    text-align:left;
+   
+    
+    
 }
 .txt-info{
-    margin-top: 20px;
-    
+    margin-top: 20px;   
     
 }
